@@ -136,6 +136,10 @@ The application has four user-facing/back-office capabilities (Question Bank, Qu
 - [ ] **Hosting:** the container must be deployable to a host of TJH's choosing (i.e., don't hard-code assumptions that tie the app to one hosting provider); document the URL-routing requirements for whoever hosts it.  
 - [ ] The implementation must be **compatible with Chingu VoyageXP capabilities** (i.e., buildable and testable within the tooling/timeframe available to a VoyageXP team).  
 - [ ] Include deployment documentation sufficient for TJH to review and approve a production deployment, and technical documentation sufficient for Chingu leadership to review the implementation.
+- [ ] Include unit tests implemented in [vitest](https://vitest.dev/) to make
+sure that core functionality, including your API, works correctly and meets
+expectations. There is no need to include automated system or end-to-end tests
+at this time.
 
 ### 8\. Non-Functional Requirements
 
@@ -160,6 +164,7 @@ Given the size of the full proposal, agree with your Product Owner on scope befo
 - [ ] Basic admin reporting (question/user stats).  
 - [ ] Deployed via Docker to a publicly reachable URL.  
 - [ ] Responsive, accessible UI covering all screens above.
+- [ ] Unit tests for basic functionality.
 
 **Stretch Goals**
 
@@ -170,6 +175,7 @@ Given the size of the full proposal, agree with your Product Owner on scope befo
 - [ ] Admin-configurable retry limits per exam.  
 - [ ] Advanced analytics dashboards (trends, guess distributions, etc.).  
 - [ ] Support for a second, non-Scrum certification/category as a proof of the engine's extensibility.
+- [ ] System and/or end-to-end automated testing.
 
 ## Suggested Development Milestones
 
