@@ -89,6 +89,7 @@ The application has four user-facing/back-office capabilities (Question Bank, Qu
 - [ ] Approved questions only are eligible to be served in a practice exam.  
 - [ ] The system must detect and flag likely **duplicate submissions** (e.g., near-identical question text) to reduce redundant review work and reduce IP-theft risk.  
 - [ ] No copyrighted/plagiarized question content is permitted; the submission and review flow must make it easy for an SME to reject content on this basis.
+- [ ] Your team should create the test data necessary to validate the operation of the application you are developing. This does not need to be a complete, or even correct Agile exam. When the application is delivered to the end user they will be responsible for creating the actual exam questions and answers.
 
 ### 2\. Question Editor (Admin)
 
